@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- tailwind-css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy-ui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/f1458b3047.js" crossorigin="anonymous"></script>
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind-config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+            fontFamily: {
+              manRope: ["Manrope", "sans-serif"],
+            },
+            backgroundImage:{
+                'buttonColor':'linear-gradient(270deg, #F00 0%, #FF8938 100%)'
+            }
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="max-w-[1600px] mx-auto font-manRope">
+    <!-- headerArea-start -->
+    <header>
+      <!-- bannerArea-start -->
+      <section class="mt-[68px]">
+        <div class="w-[1140px] mx-auto">
+          <div class="grid grid-cols-2 gap-x-2">
+            <div class="w-[628px]">
+              <h1 class="text-[80px] font-extrabold leading-[100px] text-[#1C1C1C]">It's good <span class="block">tea time at The</span> Tea House</h1>
+              <p class="text-lg font-medium leading-[30px] my-[30px]">
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+              </p>
+              <button class="btn btn-active bg-buttonColor capitalize text-white">
+                explore more 
+                <i class="fa-solid fa-square-arrow-up-right"></i>
+              </button>
+            </div>
+            <div class="relative h-[498px] w-[655px]">
+                <div class="absolute top-0 left-0 h-full w-full">
+                    <img src="./resource/image/banner.png" alt="banner" class="h-full w-full object-cover">
+                </div>
+                <div class="bg-white shadow-lg w-[255px] absolute bottom-[18px] left-[95px] flex flex-row items-center rounded-lg">
+                    <div class="pl-[26px]">
+                        <i class="fa-solid fa-star text-4xl text-yellow-400"></i>
+                    </div>
+                    <div class="py-[18px] pr-[26px] ml-[10px]">
+                        <h3 class="text-3xl font-extrabold text-[#1C1C1C]">5.00</h3>
+                        <p class="text-base font-semibold capitalize text-[#777]">trust pilot ratings</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- bannerArea-finish -->
+    </header>
+    <!-- headerArea-finish -->
+    <!-- mainArea-start -->
+    <main></main>
+    <!-- mainArea-finish -->
+    <!-- footerArea-start -->
+    <footer></footer>
+    <!-- footerArea-finish -->
+  </body>
+</html>
