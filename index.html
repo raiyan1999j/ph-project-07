@@ -35,7 +35,8 @@
             backgroundImage: {
               buttonColor: "linear-gradient(270deg, #F00 0%, #FF8938 100%)",
               featureBox1: "linear-gradient(270deg, rgb(255, 0, 0,0.1) 0%, rgb(255, 137, 56,0.1) 100%)",
-              featureBox2: "linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%)"
+              featureBox2: "linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%)",
+              footerColor: "linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%)"
             },
           },
         },
@@ -296,7 +297,73 @@
     </main>
     <!-- mainArea-finish -->
     <!-- footerArea-start -->
-    <footer></footer>
+    <footer class="bg-footerColor mt-[130px]">
+      <section>
+        <div class="w-[1140px] mx-auto pt-[130px]">
+          <div class="flex justify-between">
+            <div>
+              <img src="./resource/image/Frame.png" alt="cup">
+            </div>
+            <div class="flex flex-row">
+              <div class="pr-10">
+                <h2 class="text-xl font-medium leading-[56px] text-[#494949]">Ready to get started?</h2>
+              </div>
+              <div>
+                <button class="text-xl font-bold text-white py-[15px] px-[25px] bg-buttonColor rounded-lg">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1140px] mx-auto mt-[104px]">
+          <div class="grid grid-cols-4 gap-x-[170px]">
+            <div>
+              <h3 class="text-xl font-semibold text-[#1C1C1C] mb-[22px]">Quick Links</h3>
+              <ul class="text-base text-[#494949] font-semibold"> 
+                <li class="mb-[18px]"><a href="#">Home</a></li>
+                <li class="mb-[18px]"><a href="#">About Us</a></li>
+                <li class="mb-[18px]"><a href="#">Insurance</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-[#1C1C1C] mb-[22px]">Our Service</h3>
+              <ul class="text-base text-[#494949] font-semibold">
+                <li class="mb-[18px]"><a href="#">Life Insurance</a></li>
+                <li class="mb-[18px]"><a href="#">Car Insurance</a></li>
+                <li class="mb-[18px]"><a href="#">Health Insurance</a></li>
+                <li class="mb-[18px]"><a href="#">House Insurance</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-[#1C1C1C] mb-[22px]">Help</h3>
+              <ul class="text-base text-[#494949] font-semibold">
+                <li class="mb-[18px]"><a href="#">FAQ's</a></li>
+                <li class="mb-[18px]"><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold text-[#1C1C1C] mb-[22px]">Subscribe to our newsletter</h3>
+              <div class="relative h-[80px] w-[273px]">
+                <div class="absolute h-full w-full top-0 left-0">
+                  <input type="text" placeholder="Email Address" class="h-full w-full border-b-2 border-[#494949] border-solid bg-transparent placeholder:text-sm placeholder:font-normal placeholder:text-[#494949] py-[23px]">
+                </div>
+                <div class="absolute right-0 top-[20px]">
+                  <button class="p-2 rounded-full bg-buttonColor text-white"><i class="fa-regular fa-hand-point-right"></i></button>
+                </div>
+              </div>
+              <div class="mt-12">
+                <i class="fa-brands fa-facebook-f text-2xl text-[#494949]"></i>
+                <i class="fa-brands fa-twitter text-2xl text-[#494949] mx-6"></i>
+                <i class="fa-brands fa-instagram text-2xl text-[#494949]"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-[1140px] mx-auto mt-[60px] pb-[130px] text-center">
+          <p class="text-base font-medium text-[#494949]">© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
     <!-- footerArea-finish -->
   </body>
 </html>
